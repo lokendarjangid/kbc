@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+body {
+    font-family: 'Kanit', sans-serif;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 200% 200%;
+	height: 100vh;
+    color: white;
+    box-sizing: border-box;
+}
+body:hover{
+    background-size: 400% 400%;
+    /* -webkit-animation: gradient 15s ease infinite; */
+   animation: gradient 15s ease infinite;
+}
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.header {
+    text-align: center;
+    margin: 2px;
+    padding: 3px;
+}
+
+.container {
+    margin-top: 1%;
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 100px;
+    font-size: 18px;
+    width: 93%;
+}
+
+.float {
+    float: left;
+    display: inline-block;
+}
+
+.lifeline {
+    width: 15%;
+}
+
+.quiz {
+    width: 55%;
+    margin: 25px;
+}
+
+.price {
+    padding: 0px 0px 0px 15px;
+    width: 25%;
+}
+
+
+img.lifeline {
+    margin: 20px;
+    border: 2px solid #ff005eb3;
+    border-radius: 25px;
+    display: block;
+    width: 50px;
+}
+
+img.lifeline:hover {
+    box-shadow: 3px 3px 2px rgb(62, 34, 171);
+}
+
+.question {
+    border: 2px solid #ff005eb3;
+    border-radius: 15px;
+    padding: 15px;
+    word-spacing: 1px;
+}
+
+.ans {
+    border: 2px solid #ff005eb3;
+    border-radius: 15px;
+    width: 250px;
+    margin: 15px 30% 15px 30%;
+    display: block;
+    padding: 5px;
+}
+
+.ans:hover {
+    background-color: rgb(239, 83, 83);
+    cursor: pointer;
+    text-shadow: 2px 2px 7px #070765b3;
+    box-shadow: 3px 3px 2px rgb(62, 34, 171);
+}
+.cor:hover{
+    background-color: rgb(50, 174, 50);
+}
+
+a{
+    color: white;
+    text-decoration: none ;
+}
+
+.prices {
+    margin: 2px 0px 4px 30px;
+    width: 50%;
+    border: 2px solid #ff005eb3;
+    border-radius: 15px;
+    padding: 3px;
+    text-align: center;
+}
+.green{
+    background-color: rgb(50, 174, 50);
+}
+.prices:hover {
+    box-shadow: 3px 3px 2px rgb(62, 34, 171);
+}
+
+.cont_button {
+    margin: 25px;
+    display: inline-block;
+    width: 93%;
+    height: 74px;
+}
+
+.button {
+    position: absolute;
+    text-decoration: none;
+    font-size: 35px;
+    color: #ff005eb3;
+    border: 2px solid #ff005eb3;
+    border-radius: 40%;
+    padding: 15px;
+}
+
+.button:hover {
+    background-color: rgb(239, 83, 83);
+    text-shadow: 2px 2px 7px #070765b3;
+    box-shadow: 3px 3px 2px rgb(62, 34, 171);
+}
+
+.back {
+    float: left;
+    left: 15%;
+}
+
+.next {
+    float: right;
+    right: 15%;
+}
+.st-en {
+    width: 307px;
+    display: inline-block;
+    border: 2px solid #ff005eb3;
+    border-radius: 15px;
+    position: absolute;
+    text-align: center;
+    left: 37%;
+    top: 37%;
+    text-shadow: 2px 2px 7px #070765b3;
+    box-shadow: 3px 3px 2px rgb(62, 34, 171);
+}
