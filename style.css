@@ -5,7 +5,7 @@ body {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 200% 200%;
 	height: 100vh;
-    color: white;
+    color: white !important;
     box-sizing: border-box;
 }
 body:hover{
@@ -56,17 +56,17 @@ body:hover{
 }
 
 .lifeline {
-    width: 15%;
+    width: 14%;
 }
 
 .quiz {
     width: 55%;
-    margin: 25px;
+    margin: 25px 27px;
 }
 
 .price {
     padding: 0px 0px 0px 15px;
-    width: 25%;
+    width: 23%;
 }
 
 
@@ -88,6 +88,7 @@ img.lifeline:hover {
     border-radius: 15px;
     padding: 15px;
     word-spacing: 1px;
+    margin: auto auto;
 }
 
 .ans {
@@ -128,7 +129,7 @@ img.lifeline:hover {
 
 a{
     color: white;
-    text-decoration: none ;
+    text-decoration: none !important;
 }
 
 .prices {
