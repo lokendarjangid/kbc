@@ -124,10 +124,12 @@ img.lifeline:hover {
     box-shadow: 3px 3px 2px rgb(62, 34, 171);
     animation: size 0.1s forwards;
 }
-.cor:hover{
-    background-color: rgb(50, 174, 50);
+.ans:active{
+    background-color: red;
 }
-
+.cor:active{
+    background-color: green;
+}
 a{
     color: white;
     text-decoration: none ;
