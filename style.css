@@ -3,40 +3,54 @@
 body {
     font-family: 'Kanit', sans-serif;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+<<<<<<< HEAD
 	background-size: 200% 200%;
 	height: 100vh;
     color: white !important;
+=======
+    background-size: 400% 400%;
+    height: 100vh;
+    color: white;
+>>>>>>> development
     box-sizing: border-box;
     -webkit-animation: gradient 15s ease infinite;
-   animation: gradient 15s ease infinite;
+    animation: gradient 15s ease infinite;
 }
-body:hover{
+
+body:hover {
     background-size: 400% 400%;
     -webkit-animation: gradient 15s ease infinite;
-   animation: gradient 15s ease infinite;
+    animation: gradient 15s ease infinite;
 }
+
 @-webkit-keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
+
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
+
 .header {
     text-align: center;
     margin: 2px;
@@ -67,8 +81,13 @@ body:hover{
 }
 
 .price {
+<<<<<<< HEAD
     padding: 0px 0px 0px 15px;
     width: 23%;
+=======
+    padding: 23px 0px 0px 15px;
+    width: 25%;
+>>>>>>> development
 }
 
 
@@ -101,23 +120,29 @@ img.lifeline:hover {
     display: block;
     padding: 5px;
 }
-@keyframes size{
-    0%{
+
+@keyframes size {
+    0% {
         padding: 5px;
     }
-    25%{
+
+    25% {
         padding: 5.3px;
     }
-    50%{
+
+    50% {
         padding: 5.6px;
     }
-    75%{
+
+    75% {
         padding: 5.9px;
     }
-    100%{
+
+    100% {
         padding: 6.1px;
     }
 }
+
 .ans:hover {
     background-color: rgb(239, 83, 83);
     cursor: pointer;
@@ -125,15 +150,47 @@ img.lifeline:hover {
     box-shadow: 3px 3px 2px rgb(62, 34, 171);
     animation: size 0.1s forwards;
 }
-.ans:active{
+
+.ans:active {
     background-color: red;
+    animation: shake 0.5s linear infinite;
 }
-.cor:active{
+
+@keyframes Shake {
+    0% {
+        transform: rotate(5deg);
+    }
+  
+    25% {
+        transform: rotate(-6deg);
+    }
+  
+    50% {
+        transform: rotate(5deg);
+    }
+  
+    75% {
+        transform: rotate(-6deg);
+    }
+  
+    100% {
+        transform: rotate(5deg);
+    }
+}
+
+.cor:active {
     background-color: green;
 }
+<<<<<<< HEAD
 a{
     color: white;
     text-decoration: none !important;
+=======
+
+a {
+    color: white; 
+    text-decoration: none;
+>>>>>>> development
 }
 
 .prices {
@@ -144,26 +201,33 @@ a{
     padding: 3px;
     text-align: center;
 }
-.green{
+
+.green {
     background-color: rgb(50, 174, 50);
 }
-@keyframes sizep{
-    0%{
+
+@keyframes sizep {
+    0% {
         padding: 3px;
     }
-    25%{
+
+    25% {
         padding: 3.3px;
     }
-    50%{
+
+    50% {
         padding: 3.6px;
     }
-    75%{
+
+    75% {
         padding: 3.9px;
     }
-    100%{
+
+    100% {
         padding: 4.1px;
     }
 }
+
 .prices:hover {
     box-shadow: 3px 3px 2px rgb(62, 34, 171);
     animation: sizep 0.1s forwards;
@@ -201,6 +265,7 @@ a{
     float: right;
     right: 15%;
 }
+
 .st-en {
     width: 307px;
     display: inline-block;
